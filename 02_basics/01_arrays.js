@@ -22,7 +22,7 @@ const myArr = [0, 1, 2, 3, 4, 5]    // inside [] we have elements.
 const myHeroes = ["Spiderman", "Flash"]
 
 const myArr2 = new Array(1, 2, 3, 4)
-//console.log(myArr[0]);
+console.log(myArr[0]);
 
 // When we inspect onn console, we get prototype and length for array. Also once we expand prototype we further get one more prototype.
 
@@ -42,12 +42,12 @@ const myArr2 = new Array(1, 2, 3, 4)
 // Removes the first element from an array and returns it. If the array is empty, undefined is returned and the array is not modified.
 
 
-//myArr.push(6)             // [ 0, 1, 2, 3, 4, 5, 6 ]
-//myArr.push(7)            //  [ 0, 1, 2, 3, 4, 5, 6, 7 ]
-//myArr.pop()             //   [ 0, 1, 2, 3, 4, 5, 6 ]
+myArr.push(6)             // [ 0, 1, 2, 3, 4, 5, 6 ]
+myArr.push(7)            //  [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+myArr.pop()             //   [ 0, 1, 2, 3, 4, 5, 6 ]
 
-//myArr.unshift(9)        //     [ 9, 0, 1, 2, 3, 4, 5 ]
-//myArr.shift()          //      [ 0, 1, 2, 3, 4, 5 ]
+myArr.unshift(9)        //     [ 9, 0, 1, 2, 3, 4, 5 ]
+myArr.shift()          //      [ 0, 1, 2, 3, 4, 5 ]
 
 // Some methods in Js are questionnaire methods, you ask any question and they answer in true or false.
 
@@ -73,14 +73,14 @@ const myArr2 = new Array(1, 2, 3, 4)
 // *** splice operation, manipulates the original array. 
 
 
-//console.log(myArr.includes(9));      // false ( Boolean type)
-//console.log(myArr.indexOf(19));     //  -1
+console.log(myArr.includes(9));      // false ( Boolean type)
+console.log(myArr.indexOf(19));     //  -1
 
-//const newArr = myArr.join()         //    0,1,2,3,4,5
+const newArr = myArr.join()         //    0,1,2,3,4,5
 
-//console.log(myArr);   
-//console.log(newArr); 
-//console.log(typeof newArr);      // string
+console.log(myArr);   
+console.log(newArr); 
+console.log(typeof newArr);      // string
 
 
 console.log("A ", myArr);               // A  [ 0, 1, 2, 3, 4, 5 ]
