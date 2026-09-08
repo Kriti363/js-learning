@@ -1,0 +1,1 @@
+// How to make object singleton or how to declare them using constructor?
