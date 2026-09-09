@@ -7,8 +7,8 @@ tinderUser.id = "123abc"
 tinderUser.name = "Shiimii"
 tinderUser.isLoggedIn = false
 
-//console.log(tinderUser);   // { id: '123abc', name: 'Shiimii', isLoggedIn: false } 
-//console.log(tinderUser1);   
+console.log(tinderUser);   // { id: '123abc', name: 'Shiimii', isLoggedIn: false } 
+console.log(tinderUser1);   
 
 
 // Now we'll declare object inside object;
@@ -23,11 +23,11 @@ const regularUser = {
     }
 }
 
-//console.log(regularUser.fullname);
+console.log(regularUser.fullname);
 // { userfullname: { firstname: 'kriti', lastname: 'srivastava' } }
-//console.log(regularUser.fullname.userfullname);
+console.log(regularUser.fullname.userfullname);
 // { firstname: 'kriti', lastname: 'srivastava' }
-//console.log(regularUser.fullname.userfullname.firstname);
+console.log(regularUser.fullname.userfullname.firstname);
 // kriti
 
 
